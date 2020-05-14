@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<style>
+			html,body {
+				margin: 0;
+				padding: 0;
+				font-family: Arial, Helvetica, sans-serif;
+			}
+
+			/* CSS-START: Top Navbar CSS */
+			#navbar {
+				height: 40px;
+				background-color: #256882;
+				color: #fff;
+			}
+
+			#navbar #logo {
+				width: 100%;
+				max-width: 320px;
+				margin: auto;
+				height: 40px;
+				line-height: 40px;
+				text-align: center;
+			}
+			/* CSS-END: Top Navbar CSS */
+
+			/* CSS-START: Mind maps structure */
+			#mind-maps {
+				padding: 10px;
+			}
+
+			#mind-maps .mind-map {
+				width: 100%;
+				max-width: 320px;
+				float: left;
+				margin-right: 14px;
+				margin-bottom: 10px;
+			}
+
+			#mind-maps .mind-map .mind-map-header {
+				line-height: 40px;
+				height: 40px;
+				padding-left: 10px;
+				font-size: 16px;
+			}
+	
+			
+			#mind-maps .mind-map .mind-map-body {
+				min-height: 200px;
+				padding-top: 6px;
+			}
+			
+			#mind-maps .mind-map .mind-map-body .mind-map-body-item {
+				height: 40px;
+				line-height: 40px;
+				margin: 5px 6px 5px;
+				padding-left: 10px;
+				cursor: pointer;
+			}
+			/* CSS-END: Mind maps structure */
+
+			
+			/* CSS-START: Gray mind map box */
+			#mind-maps .mind-map.gray .mind-map-header {
+				background: #333;
+				color: #fff;
+			}
+
+			#mind-maps .mind-map.gray .mind-map-body {
+				background: #535353;
+			}
+
+			#mind-maps .mind-map.gray .mind-map-body .mind-map-body-item {
+				color: #333;
+				background: #fff;
+			}
+
+			#mind-maps .mind-map.gray .mind-map-body .mind-map-body-item:hover {
+				background: #333;
+				color: #fff;
+			}
+			/* CSS-END: Gray mind map box */
+
+
+			/* CSS-START: Dark Blue mind map box */
+			#mind-maps .mind-map.dark-blue .mind-map-header {
+				background: #094797;
+				color: #fff;
+			}
+
+			#mind-maps .mind-map.dark-blue .mind-map-body {
+				background: #4077bd;
+			}
+
+			#mind-maps .mind-map.dark-blue .mind-map-body .mind-map-body-item {
+				color: #094797;
+				background: #fff;
+			}
+
+			#mind-maps .mind-map.dark-blue .mind-map-body .mind-map-body-item:hover {
+				background: #094797;
+				color: #fff;
+			}
+			/* CSS-END: Gray mind map box */
+
+			.clear {
+				clear:both;
+			}
+		</style>
+		
+		<script type="text/javascript">
+		
+		</script>
+	</head>
+	<body>
+		<div id="navbar">
+			<div id="logo">mind mapper</div>
+		</div>
+
+		<div id="mind-maps">
+			<div class="mind-map gray">
+				<div class="mind-map-header">
+					Software Development
+				</div>
+				<div class="mind-map-body">
+					<div class="mind-map-body-item">
+						Languages
+					</div>
+					<div class="mind-map-body-item">
+						Concepts
+					</div>
+					<div class="mind-map-body-item">
+						Tools
+					</div>
+				</div>
+			</div>
+
+			<div class="mind-map dark-blue">
+				<div class="mind-map-header">
+					Calisthenics
+				</div>
+				<div class="mind-map-body">
+					<div class="mind-map-body-item">
+						Exercises
+					</div>
+					<div class="mind-map-body-item">
+						Routines
+					</div>
+					<div class="mind-map-body-item">
+						Daily Workouts
+					</div>
+				</div>
+			</div>
+
+			<div class="clear"></div>
+		</div>
+
+		<script type="text/javascript">
+		
+		</script>
+	</body>
+</html>
